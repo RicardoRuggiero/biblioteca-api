@@ -41,5 +41,6 @@ exports.deleteAuthor = (req, res) => {
     res.status(204).send();
   } else {
     res.status(404).json({ message: 'Author not found' });
+    console.log("teste")
   }
 };
